@@ -16,16 +16,19 @@ body{
 .card{
     background-color: white;
     border-radius: 20px;
-    max-width: 350px;
+    max-width: 300px;
     box-shadow: 2px 2px 15px hsl(220, 15%, 55%);
 }
 
 .txt{
     color:#444E64;
+    font-size: 17px;
 }
 
 .secondry-txt{
     color:#BABDC3;
+    font-size: 13px;
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
