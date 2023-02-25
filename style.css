@@ -6,6 +6,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 #qr-img{
@@ -16,18 +17,20 @@ body{
 .card{
     background-color: white;
     border-radius: 20px;
-    max-width: 300px;
+    max-width: 320px;
     box-shadow: 2px 2px 15px hsl(220, 15%, 55%);
 }
 
-.txt{
-    color:#444E64;
-    font-size: 17px;
-}
 
-.secondry-txt{
-    color:#BABDC3;
-    font-size: 13px;
+p{
+    color:hsl(220, 15%, 55%);
+    font-size: 0.8rem;
+
+}
+h1{
+    color:hsl(218, 44%, 22%);
+    font-size: 1.15rem;
+    font-weight: 700;
 
 }
 
